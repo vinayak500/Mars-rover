@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0px;
+}
+
+#header{
+    color:black;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  height:60px;
+}
+
+#options{
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#date-container{
+    display:inline-block;
+}
+
+#button-container{
+    border: 1px solid black;
+    background-color:lightgray;
+    display:inline-block;
+    height:35px;
+    width:100px;
+    padding:2px;
+}
+
+#image-container img
+{
+    height:200px;
+    width:200px;
+    margin:10px;
+}
